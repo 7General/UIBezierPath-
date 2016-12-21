@@ -15,6 +15,7 @@
 		255FAA301E0A258C00CDA5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255FAA2E1E0A258C00CDA5A7 /* LaunchScreen.storyboard */; };
 		255FAA3C1E0A25CC00CDA5A7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FAA3B1E0A25CC00CDA5A7 /* MainViewController.m */; };
 		255FAA3F1E0A261000CDA5A7 /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FAA3E1E0A261000CDA5A7 /* BasicView.m */; };
+		255FAA421E0A4B4900CDA5A7 /* CartogrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FAA411E0A4B4900CDA5A7 /* CartogrameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		255FAA3B1E0A25CC00CDA5A7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		255FAA3D1E0A261000CDA5A7 /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
 		255FAA3E1E0A261000CDA5A7 /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		255FAA401E0A4B4900CDA5A7 /* CartogrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartogrameView.h; sourceTree = "<group>"; };
+		255FAA411E0A4B4900CDA5A7 /* CartogrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartogrameView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				255FAA3D1E0A261000CDA5A7 /* BasicView.h */,
 				255FAA3E1E0A261000CDA5A7 /* BasicView.m */,
+				255FAA401E0A4B4900CDA5A7 /* CartogrameView.h */,
+				255FAA411E0A4B4900CDA5A7 /* CartogrameView.m */,
 			);
 			name = UIBezierPathCustom;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				255FAA3F1E0A261000CDA5A7 /* BasicView.m in Sources */,
+				255FAA421E0A4B4900CDA5A7 /* CartogrameView.m in Sources */,
 				255FAA281E0A258C00CDA5A7 /* ViewController.m in Sources */,
 				255FAA251E0A258C00CDA5A7 /* AppDelegate.m in Sources */,
 				255FAA221E0A258C00CDA5A7 /* main.m in Sources */,
@@ -343,6 +349,7 @@
 				255FAA361E0A258C00CDA5A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
