@@ -51,6 +51,21 @@
     CGContextAddPath(ctx, path.CGPath);
     CGContextSetRGBFillColor(ctx,215.0/255.0, 236.0/255.0, 177.0/255.0, 1.0);
     CGContextFillPath(ctx);
+    
+    // 画最后一个提示矩形框
+    NSString* text = @"12";
+    CGSize textSize=[text sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:11.0]}];
+    
+    CGRect texRrect=CGRectMake(280 + 10, 150 - (textSize.height * 0.5), textSize.width + 10, textSize.height);
+    UIBezierPath* path1=[UIBezierPath bezierPathWithRoundedRect:texRrect cornerRadius:5];
+    
+    CGContextAddPath(ctx, path1.CGPath);
+    CGContextSetRGBFillColor(ctx, 131.0/255.0, 190.0/255.0, 34.0/255.0, 1.0);
+    CGContextFillPath(ctx);
+    NSMutableParagraphStyle * paragStyle = [[NSMutableParagraphStyle alloc] init];
+    paragStyle.alignment = NSTextAlignmentCenter;
+    
+    [text drawInRect:texRrect withAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:11.0],NSForegroundColorAttributeName:[UIColor whiteColor],NSParagraphStyleAttributeName:paragStyle}];
 }
 
 @end
