@@ -16,6 +16,13 @@
  */
 
 
+/** 注意事项：
+  * 1：要是当前的UIView上画图 drawRect
+  * 2：UIGraphicsGetCurrentContext
+  * 3：UIBezierPath（画笔）
+  * 4：画布（自定义大小）
+ */
+
 
 
 
