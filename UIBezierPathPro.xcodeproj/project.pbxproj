@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2547C2A11E0BBDB400ECD69E /* CreatePro.m in Sources */ = {isa = PBXBuildFile; fileRef = 2547C2A01E0BBDB400ECD69E /* CreatePro.m */; };
 		255FAA221E0A258C00CDA5A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FAA211E0A258C00CDA5A7 /* main.m */; };
 		255FAA251E0A258C00CDA5A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FAA241E0A258C00CDA5A7 /* AppDelegate.m */; };
 		255FAA281E0A258C00CDA5A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FAA271E0A258C00CDA5A7 /* ViewController.m */; };
@@ -16,9 +17,12 @@
 		255FAA3C1E0A25CC00CDA5A7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FAA3B1E0A25CC00CDA5A7 /* MainViewController.m */; };
 		255FAA3F1E0A261000CDA5A7 /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FAA3E1E0A261000CDA5A7 /* BasicView.m */; };
 		255FAA421E0A4B4900CDA5A7 /* CartogrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FAA411E0A4B4900CDA5A7 /* CartogrameView.m */; };
+		25BE011B1E0BD154005BC602 /* TestCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BE011A1E0BD154005BC602 /* TestCreate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2547C29F1E0BBDB400ECD69E /* CreatePro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatePro.h; sourceTree = "<group>"; };
+		2547C2A01E0BBDB400ECD69E /* CreatePro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatePro.m; sourceTree = "<group>"; };
 		255FAA1D1E0A258C00CDA5A7 /* UIBezierPathPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBezierPathPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		255FAA211E0A258C00CDA5A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		255FAA231E0A258C00CDA5A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +39,8 @@
 		255FAA3E1E0A261000CDA5A7 /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
 		255FAA401E0A4B4900CDA5A7 /* CartogrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartogrameView.h; sourceTree = "<group>"; };
 		255FAA411E0A4B4900CDA5A7 /* CartogrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartogrameView.m; sourceTree = "<group>"; };
+		25BE01191E0BD154005BC602 /* TestCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCreate.h; sourceTree = "<group>"; };
+		25BE011A1E0BD154005BC602 /* TestCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCreate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 				255FAA3E1E0A261000CDA5A7 /* BasicView.m */,
 				255FAA401E0A4B4900CDA5A7 /* CartogrameView.h */,
 				255FAA411E0A4B4900CDA5A7 /* CartogrameView.m */,
+				2547C29F1E0BBDB400ECD69E /* CreatePro.h */,
+				2547C2A01E0BBDB400ECD69E /* CreatePro.m */,
+				25BE01191E0BD154005BC602 /* TestCreate.h */,
+				25BE011A1E0BD154005BC602 /* TestCreate.m */,
 			);
 			name = UIBezierPathCustom;
 			sourceTree = "<group>";
@@ -189,8 +199,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2547C2A11E0BBDB400ECD69E /* CreatePro.m in Sources */,
 				255FAA3F1E0A261000CDA5A7 /* BasicView.m in Sources */,
 				255FAA421E0A4B4900CDA5A7 /* CartogrameView.m in Sources */,
+				25BE011B1E0BD154005BC602 /* TestCreate.m in Sources */,
 				255FAA281E0A258C00CDA5A7 /* ViewController.m in Sources */,
 				255FAA251E0A258C00CDA5A7 /* AppDelegate.m in Sources */,
 				255FAA221E0A258C00CDA5A7 /* main.m in Sources */,
